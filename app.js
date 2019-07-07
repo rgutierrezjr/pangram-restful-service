@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.post('/rest/pangram', (request, response) => {
     const body = _.pick(request.body, ['phrase']);
 
-    if (!body.phrase) {
+    if (body.phrase === undefined) {
         return response.status(400).send({"errorMessage": "Error: phrase is required."});
     }
 

@@ -14,7 +14,8 @@ The application also contains an optional front-end that will invoke the public 
     npm start
     
 ## Test
-
+To test this application, make sure you have the application running, then run the following.
+    
     npm test
     
 ## Example
