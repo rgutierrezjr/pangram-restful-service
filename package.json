@@ -15,6 +15,9 @@
     "lodash": "^4.17.11"
   },
   "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
     "mocha": "^6.1.4",
     "nodemon": "^1.19.1",
     "should": "^13.2.3",
