@@ -20,8 +20,7 @@ app.post('/rest/pangram', (request, response) => {
 
         let responsePayload = {
             "phrase": body.phrase,
-            "isPangram": result,
-            "errorMessage": ""
+            "isPangram": result
         }
 
         if (errorMessage) {

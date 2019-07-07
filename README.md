@@ -13,7 +13,11 @@ The application also contains an optional front-end that will invoke the public 
 
     npm start
     
-## Service Details
+## Test
+
+    npm test
+    
+## Example
 You can invoke a deployed version of the service at the following url. 
 
     https://vast-harbor-20220.herokuapp.com/rest/pangram

@@ -4,7 +4,8 @@
   "description": "This application exposes a RESTful service which given a string (may contain non-alpha characters) will return whether or not the phrase / string is a Pangram. A pangram is a sentence or verse that contains all the letters of the alphabet.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "node app.js & mocha"
   },
   "author": "Ruben Gutierrez, ruben@bigboston.io",
   "license": "ISC",
@@ -14,6 +15,9 @@
     "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
   }
 }
