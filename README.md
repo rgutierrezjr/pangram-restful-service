@@ -33,8 +33,7 @@ Example response (application/json).
 
     {
         "phrase": "aAAAAADbbcdefghijklmqnopXrstuvwxyz123456!@#$%^&*()abcdefg",
-        "isPangram": true,
-        "errorMessage": ""
+        "isPangram": true
     }
     
 If a phrase is not provided or is missing in the request, the service will respond with the following.
